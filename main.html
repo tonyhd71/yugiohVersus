@@ -32,9 +32,30 @@
             line-height: 75px;
             border-radius:7%;
         }
+        .chooseDeck {
+            display:flex;
+            justify-content:center;
+            flex-direction:row;
+        }
+        .chooseDeck > img {
+            width:30%;
+            opacity:0.5;
+        }
+        .chooseDeck > img:hover {
+            opacity:1.0;
+        }
     </style>
 </head>
 <body>
+<h3>Pick a deck to pilot</h3>
+<section class="chooseDeck">
+    <img src="img/dinos.png"/>
+    <img src="img/exos.jpg"/>
+</section>
+
+<section id="chooseTurn">
+
+</section>
 <div class="player1Hand hand">
   <div>1</div>
   <div>2</div>
