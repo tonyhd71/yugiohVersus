@@ -1,0 +1,4 @@
+let deck1 = "Dinos";
+let deck2 = "Exosisters";
+deck1Main = ["Soul Eating Oviraptor", "Soul Eating Oviraptor", "Soul Eating Oviraptor", "Fossil Dig", "Fossil Dig", "Fossil Dig", "Miscellaneousaurus", "Ultimate Conductor Tyranno", "Ultimate Conductor Tyranno", "Giant Rex", "Pank", "Dogoran", "Ground Xeno", "Grounbd Xeno", "Pot of Prosperity", "Pot of Prosperity", "Pot of Prosperity", "Infinite Impermanence", "Infinite Impermanence", "Infinite Impermanence", "Ash Blossom & Joyous Spring", "Ash Blossom & Joyous Spring", "Ash Blossom & Joyous Spring", "Double Evolution Pill", "Double Evolution Pill"];
+alert(deck1Main);
