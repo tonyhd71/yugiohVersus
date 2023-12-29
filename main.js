@@ -8,4 +8,4 @@ let exoSide = ["Droll & Lock Bird", "Droll & Lock Bird", "Droll & Lock Bird", "T
 let exoExtra = ["Tornado Dragon", "Exosister Mikailis", "Exosister Mikailis", "Exosister Mikailis", "Exosister Kaspitall", "Exosister Kaspitall", "Exosister Gibrene", "Exosister Asophiel", "Zeus", "Ty-Phon", "Donner", "Bagooska", "Exciton Knight", "Exosisters Magnifica", "Exosisters Magnifica"];
 /* SORT DINO DECK IN RANDOM ORDER /*/
 dinoMain.sort(function(){return 0.5 - Math.random()});
-alert(dinoMain);
+//alert(dinoMain);

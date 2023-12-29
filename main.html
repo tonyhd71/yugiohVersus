@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <title></title>
     <style>
+        h3 {
+            text-align:center;
+        }
         .cards {
             display:flex;
             background-color:black;
@@ -37,11 +40,13 @@
             justify-content:center;
             flex-direction:row;
         }
-        .chooseDeck > img {
-            width:30%;
-            opacity:0.5;
+        .chooseDeck > input {
+            width:15%;
+            opacity:0.6;
+            height:25vh;
+            margin:10px;
         }
-        .chooseDeck > img:hover {
+        .chooseDeck > input:hover {
             opacity:1.0;
         }
     </style>
@@ -49,8 +54,8 @@
 <body>
 <h3>Pick a deck to pilot</h3>
 <section class="chooseDeck">
-    <img src="img/dinos.png"/>
-    <img src="img/exos.jpg"/>
+    <input type="image" src="img/dinos.jpg"/>
+    <input type="image" src="img/exos.jpg"/>
 </section>
 
 <section id="chooseTurn">
