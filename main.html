@@ -5,23 +5,83 @@
     <meta charset="utf-8" />
     <title></title>
     <style>
-        .player1Hand {
+        .cards {
             display:flex;
             background-color:black;
             flex-wrap:nowrap;
+            justify-content: center;
         }
-        .player1Hand > div {
+        .cards > div{
             background-color:grey;
             text-align:center;
-            width:100px;
+            width:60px;
             margin:10px;
             line-height: 75px;
 
         }
+        .hand {
+            display:flex;
+            flex-direction: row;
+            justify-content:center;
+           
+        }
+        .hand >div {
+            background-color: grey;
+            width:40px;
+            margin:10px;
+            line-height: 75px;
+            border-radius:7%;
+        }
     </style>
 </head>
 <body>
-<div class="player1Hand">
+<div class="player1Hand hand">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+</div>
+<div class="player1SpellsTraps cards">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+   <div>6</div>
+</div>
+
+<div class="player1MainMonsters cards">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+</div>
+<div class="linkZones cards">
+    <div>1</div>
+    <div>2</div>
+</div>
+
+
+
+<div class="player2MainMonsters cards">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+</div>
+
+<div class="player2SpellsTraps cards">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+</div>
+<div class="player2Hand hand">
   <div>1</div>
   <div>2</div>
   <div>3</div>  
